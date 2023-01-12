@@ -1,0 +1,54 @@
+.timeline {
+    list-style: none;
+
+    &__item {
+        font-size: 1.8rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+        position: relative;
+        margin: 0;
+        padding-bottom: 5rem;
+        padding-left: 3.5rem;
+
+        &:first-child:before {
+            top: 10px;
+        }
+
+        &:last-child:before { 
+            height: 20px;
+        }
+
+        &::before {
+            background-color: rgba(205, 216, 222, 1);
+            width: 2px;
+            content: '';
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 5px;
+        }
+
+        &::after {
+            background-color: rgba(140, 168, 184, 1);
+            border-radius: 50%;
+            width: 1.2rem;
+            height: 1.2rem;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;  
+        }
+    }
+
+    &__span {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: rgba(140, 168, 184, 1);
+    }
+
+}

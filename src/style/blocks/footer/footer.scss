@@ -1,0 +1,27 @@
+.footer {
+    padding: 3rem 0 3rem 0;
+    text-align: center;
+
+    @include darkTheme() {
+        color: $text-color-grey;
+        background-color: rgba(30, 30, 30, 1);
+    }
+
+    @include lightTheme() {
+        background-color: rgba(251,251,251);
+    }
+
+    &__socials {
+        padding-top: 2rem;
+        display: inline-block;
+    }
+
+    &__copyright {
+        font-size: 1rem;
+    }
+
+    &__logo {
+        height: 3rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+}
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    line-height: 1.7;
+}
+
+.above-section {
+    font-size: 1.3rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    color: rgba(180,198,207);
+    font-weight: 400;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+}

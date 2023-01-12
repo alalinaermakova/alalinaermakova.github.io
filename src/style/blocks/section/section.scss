@@ -1,0 +1,25 @@
+.section {
+    padding: 10rem 10rem 20rem 10rem;
+
+    @include darkTheme() {
+        color: $text-color-grey;
+        background-color: rgba(30, 30, 30, 1);
+    }
+
+    @include lightTheme() {
+        background-color: rgba(251,251,251);
+    }
+
+    &__box {
+        padding: 7rem 2rem;
+        text-align: center;
+    }
+
+    &__grid {
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+        row-gap: 7rem;
+    }
+}

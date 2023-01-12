@@ -1,0 +1,72 @@
+[{
+    "id": 1,
+    "image": "./img/yourtailor.jpg",
+    "title": "Your tailor",
+    "tools": "Css/Js",
+    "link": "https://yourtailor.site",
+    "text": "Created web-site from a scratch. Used references from other tailor services to make the design and logo in figma. Landing page with 1 JS file for accordion to display the list of services."
+  },
+  {
+    "id": 2,
+    "image": "./img/mesto.jpg",
+    "title": "Mesto.",
+    "tools": "React(authorization)",
+    "link": "https://alalinaermakova.github.io/mesto-react-auth/",
+    "text": "Social network web page with authorization and registration. You can change profile picture, description, add new posts and like others. Open pictures with popups."
+  },
+  {
+    "id": 3,
+    "image": "./img/video-hooks.png",
+    "title": "Video hooks",
+    "tools": "React",
+    "link": "https://videos-hooks-blue-pi.vercel.app",
+    "text": "Used axio to connect to youtube api, created custom hook useVideos for a video search."
+  },
+  {
+    "id": 4,
+    "image": "./img/todo.jpg",
+    "title": "Todo list",
+    "tools": "Css, React",
+    "link": "https://todo-list-app-by-alina.netlify.app",
+    "text": "Todo list for editing, deleting and creating new tasks. Resposive design."
+  },
+  {
+    "id": 5,
+    "image": "./img/natours.jpg",
+    "title": "Natours",
+    "tools": "Css/Sass",
+    "link": "https://natours-adventurous-sass.netlify.app",
+    "text": "Landing page for adventurous tours with sign in form"
+  },
+  {
+    "id": 6,
+    "image": "./img/travel.jpg",
+    "title": "Travel across Russia",
+    "tools": "Css",
+    "link": "https://alalinaermakova.github.io/russian-travel/#",
+    "text": "Landing page 'Travel Across Russia' with adaptive design"
+  },
+  {
+    "id": 7,
+    "image": "./img/officelite.jpg",
+    "title": "Officelite",
+    "tools": "Css, JS",
+    "link": "https://officelite-coming-soon.netlify.app",
+    "text": "Simple landing page with JS countdown."
+  },
+  {
+    "id": 8,
+    "image": "./img/widgets.jpg",
+    "title": "Widgets",
+    "tools": "React",
+    "link": "https://officelite-coming-soon.netlify.app",
+    "text": "Created tabs for diffrent pages sush as Accordion, Dropdown, Search and Translate."
+  },
+  {
+    "id": 9,
+    "image": "./img/learn.jpg",
+    "title": "How to learn",
+    "tools": "Css",
+    "link": "https://alalinaermakova.github.io/how-to-learn/",
+    "text": "1st work. Landing page How to Learn. Used animation."
+  }]

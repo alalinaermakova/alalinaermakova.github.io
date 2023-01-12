@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 8rem;
+    align-items: baseline;
+
+    &__text {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+
+    &__text:not(:last-child) {
+        padding-bottom: 1.4rem;
+    }
+}
