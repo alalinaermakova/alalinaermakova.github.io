@@ -14,9 +14,9 @@ const CardList = ({ cards }) => {
             <h3 className="section-title">Featured portfolios</h3>
             <section className="section__box">
                 <div className="section__grid">
-                    {firstCards.map((card, index) => {
+                    {firstCards.map((card) => {
                         return <Card 
-                            key={index}
+                            key={card.id}
                             image={card.image}
                             title={card.title}
                             tools={card.tools}
