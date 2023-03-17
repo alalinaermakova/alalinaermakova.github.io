@@ -22,7 +22,7 @@ const Main = ({children, dark, themeName }) => {
                     <nav className="nav-bar">
                         <ul className="nav-bar__list">
                             <li className="nav-bar__item"><a className="nav-bar__link" href="#works">my works</a></li>
-                            <li className="nav-bar__item"><a className="nav-bar__link" href="#">experience</a></li>
+                            <li className="nav-bar__item"><a className="nav-bar__link" href="#resume">experience</a></li>
                             <li lassName="nav-bar__item">{children}</li>
                         </ul>
                     </nav>

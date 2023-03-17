@@ -2,7 +2,7 @@
     "id": 1,
     "image": "./img/yourtailor.jpg",
     "title": "Your tailor",
-    "tools": "Css/Js",
+    "tools": "Css, responsive design, JS",
     "link": "https://yourtailor.site",
     "text": "Created web-site from a scratch. Used references from other tailor services to make the design and logo in figma. Landing page with 1 JS file for accordion to display the list of services."
   },
@@ -10,7 +10,7 @@
     "id": 2,
     "image": "./img/mesto.jpg",
     "title": "Mesto.",
-    "tools": "React(authorization)",
+    "tools": "React JS, REST API, webpack, authorization",
     "link": "https://alalinaermakova.github.io/mesto-react-auth/",
     "text": "Social network web page with authorization and registration. You can change profile picture, description, add new posts and like others. Open pictures with popups."
   },
@@ -18,7 +18,7 @@
     "id": 3,
     "image": "./img/video-hooks.png",
     "title": "Video hooks",
-    "tools": "React",
+    "tools": "React JS, axio, REST API",
     "link": "https://videos-hooks-blue-pi.vercel.app",
     "text": "Used axio to connect to youtube api, created custom hook useVideos for a video search."
   },
@@ -59,7 +59,7 @@
     "image": "./img/widgets.jpg",
     "title": "Widgets",
     "tools": "React",
-    "link": "https://officelite-coming-soon.netlify.app",
+    "link": "https://widgets-by-alina.netlify.app",
     "text": "Created tabs for diffrent pages sush as Accordion, Dropdown, Search and Translate."
   },
   {
@@ -69,4 +69,13 @@
     "tools": "Css",
     "link": "https://alalinaermakova.github.io/how-to-learn/",
     "text": "1st work. Landing page How to Learn. Used animation."
-  }]
+  },
+  {
+    "id": 10,
+    "image": "./img/bookmark.jpg",
+    "title": "Bookmark App",
+    "tools": "Sass, React, Link Validation, Unit Tests",
+    "link": "https://bookmark-app-ae.netlify.app/",
+    "text": "React.js web app that maintains a list of bookmarks (links). My design from the scratch. The user is able to add/edit/delete any link in the list. Displays the list of links with pagination so 20 links are shown per page. Users can remove links and clear all. Validation is custom written. All links entered in the list persist page reload."
+  }
+]

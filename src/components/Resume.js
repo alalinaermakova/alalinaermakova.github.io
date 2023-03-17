@@ -1,6 +1,6 @@
 function Resume() {
     return (
-        <section className="section section--light ">
+        <section className="section section--light" id="resume">
             <p className="above-section"><span>&#8212;</span>learning path</p>
             <h3 className="section-title">Education & Skills</h3>
             <div className="grid">
