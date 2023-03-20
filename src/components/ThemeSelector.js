@@ -9,7 +9,7 @@ function ThemeSelector({ setThemeName, dark, light, themeName }) {
   }
 
     return <div>
-      <button className="btn--toggle" onClick={toggleTheme}><img className="btn__img" src={themeName === dark ? lightMoon : darkMoon} /></button>
+      <button className="btn--toggle" onClick={toggleTheme}><img className="btn__img" alt="theme icon" src={themeName === dark ? lightMoon : darkMoon} /></button>
     </div>
 }
 

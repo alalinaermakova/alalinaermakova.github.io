@@ -13,7 +13,7 @@ const Card = ({ id, image, title, tools, link, text }) => {
             <div className="card__side card__side--back">
                 <div className="card__text-box">
                     <p className="card__back-text">{text}</p>
-                    <a className="card__link" href={link}><img src={linkPic} /></a>
+                    <a className="card__link" href={link}><img alt="link icon" src={linkPic} /></a>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import logo from "../images/logo.svg";
 import logoDark from "../images/logo-dark-2.svg";
@@ -47,7 +47,7 @@ const Main = ({children, dark, themeName }) => {
                     </ul>
                 </div>
                 <div className="main__photo-box">
-                    <img className="main__photo" src={profile} />
+                    <img className="main__photo" alt="profile photo" src={profile} />
                 </div>
             </main>
         </div>
