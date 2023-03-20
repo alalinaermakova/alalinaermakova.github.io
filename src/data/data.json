@@ -15,12 +15,12 @@
     "text": "Social network web page with authorization and registration. You can change profile picture, description, add new posts and like others. Open pictures with popups."
   },
   {
-    "id": 3,
-    "image": "./img/video-hooks.png",
-    "title": "Video hooks",
-    "tools": "React JS, axio, REST API",
-    "link": "https://videos-hooks-blue-pi.vercel.app",
-    "text": "Used axio to connect to youtube api, created custom hook useVideos for a video search."
+    "id": 10,
+    "image": "./img/bookmark.jpg",
+    "title": "Bookmark App",
+    "tools": "Sass, React, Link Validation, Unit Tests",
+    "link": "https://bookmark-app-ae.netlify.app/",
+    "text": "React.js web app that maintains a list of bookmarks (links). My design from the scratch. The user is able to add/edit/delete any link in the list. Displays the list of links with pagination so 20 links are shown per page. Users can remove links and clear all. Validation is custom written. All links entered in the list persist page reload."
   },
   {
     "id": 4,
@@ -71,11 +71,11 @@
     "text": "1st work. Landing page How to Learn. Used animation."
   },
   {
-    "id": 10,
-    "image": "./img/bookmark.jpg",
-    "title": "Bookmark App",
-    "tools": "Sass, React, Link Validation, Unit Tests",
-    "link": "https://bookmark-app-ae.netlify.app/",
-    "text": "React.js web app that maintains a list of bookmarks (links). My design from the scratch. The user is able to add/edit/delete any link in the list. Displays the list of links with pagination so 20 links are shown per page. Users can remove links and clear all. Validation is custom written. All links entered in the list persist page reload."
+    "id": 3,
+    "image": "./img/video-hooks.png",
+    "title": "Video hooks",
+    "tools": "React JS, axio, REST API",
+    "link": "https://videos-hooks-blue-pi.vercel.app",
+    "text": "Used axio to connect to youtube api, created custom hook useVideos for a video search."
   }
 ]
