@@ -47,7 +47,7 @@ const Main = ({children, dark, themeName }) => {
                     </ul>
                 </div>
                 <div className="main__photo-box">
-                    <img className="main__photo" alt="profile photo" src={profile} />
+                    <img className="main__photo" alt="profile-logo" src={profile} />
                 </div>
             </main>
         </div>
