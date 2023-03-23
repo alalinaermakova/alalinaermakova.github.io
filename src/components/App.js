@@ -16,7 +16,7 @@ const light = themeNames.light;
 
 const App = () => {
 
-  const [themeName, setThemeName] = useState(themeNames.dark);
+  const [themeName, setThemeName] = useState(themeNames.light);
   
   return (
     <div>

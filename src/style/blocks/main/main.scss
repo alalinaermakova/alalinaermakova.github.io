@@ -5,6 +5,16 @@
     align-items: center;
     justify-items: end;
 
+    &__photo-box {
+        margin: auto;
+    }
+
+    &__photo {
+        max-height: 40rem;
+        border-radius: 2rem;
+        margin-left: 8rem;
+    }
+
     @include darkTheme() {
         color: $text-color-grey;
         background-color: rgba(30, 30, 30, 1);

@@ -8,7 +8,7 @@ import insta from "../images/Instagram.svg";
 import gitHubDark from "../images/Github-dark.svg";
 import instaDark from "../images/Insta-dark.svg";
 import linkedinDark from '../images/Linkedin-dark.svg';
-import profile from "../images/photoprof.svg";
+import profile from "../images/main-photo.jpg";
 
 const Main = ({children, dark, themeName }) => {
     
@@ -23,7 +23,7 @@ const Main = ({children, dark, themeName }) => {
                         <ul className="nav-bar__list">
                             <li className="nav-bar__item"><a className="nav-bar__link" href="#works">my works</a></li>
                             <li className="nav-bar__item"><a className="nav-bar__link" href="#resume">experience</a></li>
-                            <li lassName="nav-bar__item">{children}</li>
+                            <li className="nav-bar__item">{children}</li>
                         </ul>
                     </nav>
                     <div>
